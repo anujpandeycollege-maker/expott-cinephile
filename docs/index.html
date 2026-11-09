@@ -5,12 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#050507" />
   <title>The Master Catalogue — India & Global</title>
-  <meta name="description" content="Live daily Top 10 across streaming services." />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { darkMode: 'class', theme: { extend: { colors: { oled: '#050507', panel: '#0c0c10' } } } }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
     :root { --oled: #050507; --line: rgba(255,255,255,0.07); }
@@ -22,6 +20,7 @@
     .card:hover { transform: translateY(-2px); border-color: rgba(255,255,255,0.15); }
     .tab-active { background: rgba(255,255,255,0.1); color: #fff; font-weight: 600; border-color: rgba(255,255,255,0.2); }
     .tab-inactive { color: #71717a; border-color: transparent; }
+    .clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   </style>
 </head>
 <body>
@@ -30,6 +29,7 @@
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
 
 <script type="text/babel">
 const { useState, useEffect } = React;
@@ -40,43 +40,61 @@ function App() {
   const [activeTab, setActiveTab] = useState('IN'); // 'IN' for India, 'GLOBAL' for Global
 
   useEffect(() => {
-    fetch('/expoitt-cinephile/daily_catalogue.json', { cache: 'no-store' })
+    // THE FIX: Using './' means "look in the same folder as this HTML file"
+    fetch('./daily_catalogue.json', { cache: 'no-store' })
       .then(res => { if (!res.ok) throw new Error(); return res.json(); })
       .then(json => setData(json))
       .catch(() => setError(true));
   }, []);
 
-  if (error) return <div className="min-h-screen flex items-center justify-center text-zinc-500 font-mono">Catalogue not found.</div>;
-  if (!data) return <div className="min-h-screen flex items-center justify-center text-zinc-500 font-mono">LOADING...</div>;
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-center px-4">
+        <div>
+          <h1 className="text-2xl font-bold text-white mb-2">Catalogue not found</h1>
+          <p className="text-zinc-500 mb-4">The website is looking for <code>daily_catalogue.json</code> in the <code>docs</code> folder.</p>
+          <p className="text-sm text-zinc-600">Make sure you ran the GitHub Action after updating the Python script.</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!data) return <div className="min-h-screen flex items-center justify-center text-zinc-500 font-mono">LOADING CATALOGUE...</div>;
 
   // Filter platforms based on the active tab
   const isIndian = (platformName) => platformName.includes('India') || ['JioHotstar', 'SonyLIV', 'ZEE5'].includes(platformName);
   
-  const visiblePlatforms = Object.keys(data.platforms).filter(p => {
+  const visiblePlatforms = Object.keys(data.platforms || {}).filter(p => {
     return activeTab === 'IN' ? isIndian(p) : !isIndian(p);
   });
 
   return (
-    <div className="min-h-screen bg-oled">
+    <div className="min-h-screen bg-oled pb-12">
       {/* HEADER */}
       <header className="glass sticky top-0 z-30 px-4 sm:px-6 py-4">
         <div className="max-w-[1600px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <h1 className="text-lg font-extrabold tracking-tight">THE MASTER CATALOGUE</h1>
-            <p className="text-[10px] text-zinc-500 font-mono">{data.date_label} • Live Daily Charts</p>
+            <h1 className="text-lg font-extrabold tracking-tight flex items-center gap-2">
+              <i data-lucide="clapperboard" className="text-red-600 w-5 h-5"></i> THE MASTER CATALOGUE
+            </h1>
+            <p className="text-[10px] text-zinc-500 font-mono mt-1">{data.date_label} • LIVE DAILY CHARTS</p>
           </div>
           
           {/* TABS */}
           <div className="flex bg-white/5 rounded-xl p-1 border border-white/10">
             <button 
               onClick={() => setActiveTab('IN')}
-              className={`px-6 py-2 rounded-lg text-sm transition border ${activeTab === 'IN' ? 'tab-active' : 'tab-inactive'}`}
+              className={`px-6 py-2 rounded-lg text-sm transition border ${activeTab === 'IN' ? 'tab-active' : 'tab-inactive hover:text-white'}`}
             >
               India OTT
             </button>
             <button 
               onClick={() => setActiveTab('GLOBAL')}
-              className={`px-6 py-2 rounded-lg text-sm transition border ${activeTab === 'GLOBAL' ? 'tab-active' : 'tab-inactive'}`}
+              className={`px-6 py-2 rounded-lg text-sm transition border ${activeTab === 'GLOBAL' ? 'tab-active' : 'tab-inactive hover:text-white'}`}
             >
               Global OTT
             </button>
@@ -91,22 +109,23 @@ function App() {
           const metaStatus = items[0]?.status || 'BASELINE';
           
           return (
-            <section key={platformName} className="mb-12">
+            <section key={platformName} className="mb-12 fade-up">
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-bold">{platformName}</h2>
-                <span className={`text-[10px] font-mono px-2 py-1 rounded border ${metaStatus === 'LIVE' ? 'badge-live' : 'badge-baseline'}`}>
+                <h2 className="text-xl font-bold tracking-tight text-white">{platformName}</h2>
+                <span className={`text-[10px] font-mono px-2 py-1 rounded border ${metaStatus === 'LIVE' ? 'bg-green-500/10 text-green-400 border-green-500/20' : 'bg-amber-500/10 text-amber-400 border-amber-500/20'}`}>
                   {metaStatus === 'LIVE' ? '⚡ LIVE' : '🛡️ BASELINE'}
                 </span>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {items.map((item, idx) => (
-                  <div key={idx} className="card rounded-xl p-4 flex flex-col justify-between h-32">
+                  <div key={idx} className="card rounded-xl p-4 flex flex-col justify-between h-36">
                     <div>
-                      <div className="flex justify-between items-start">
-                        <span className="text-2xl font-black text-zinc-600">#{item.rank || idx + 1}</span>
+                      <div className="flex justify-between items-start mb-2">
+                        <span className="text-2xl font-black text-zinc-700">#{item.rank || idx + 1}</span>
+                        <i data-lucide="play-circle" className="w-5 h-5 text-zinc-600"></i>
                       </div>
-                      <p className="text-sm font-semibold leading-tight mt-2 clamp-2" title={item.title}>{item.title}</p>
+                      <p className="text-sm font-semibold leading-tight text-zinc-100 clamp-2" title={item.title}>{item.title}</p>
                     </div>
                   </div>
                 ))}
