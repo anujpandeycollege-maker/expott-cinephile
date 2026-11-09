@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#050507" />
+  <title>The Master Catalogue — Daily Streaming Intelligence</title>
+  <meta name="description" content="Same-day Top 10 across 10 streaming services, plus Beyond Radar. Zero login. Daily sync." />
+  <meta property="og:title" content="The Master Catalogue" />
+  <meta property="og:description" content="Cinematic daily streaming intelligence — India, Global, and Beyond." />
+  <meta property="og:image" content="/og.svg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="manifest" href='data:application/manifest+json,{"name":"The Master Catalogue","short_name":"Catalogue","start_url":"/","display":"standalone","background_color":"%23050507","theme_color":"%23050507","icons":[{"src":"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 192 192%27%3E%3Crect width=%27192%27 height=%27192%27 rx=%2740%27 fill=%27%23050507%27/%3E%3Ctext x=%2796%27 y=%27120%27 font-size=%2780%27 text-anchor=%27middle%27 fill=%27%23E50914%27%3E🎬%3C/text%3E%3C/svg%3E","sizes":"192x192","type":"image/svg+xml"}]}' />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            oled: '#050507',
+            panel: '#0c0c10',
+            line: 'rgba(255,255,255,0.07)',
+          },
+          fontFamily: {
+            display: ['Inter', 'ui-sans-serif', 'system-ui'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+          },
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --oled: #050507;
+      --panel: #0c0c10;
+      --line: rgba(255,255,255,0.07);
+      --netflix: #E50914;
+      --prime: #00A8E1;
+      --hotstar: #5A2D91;
+      --sony: #D4AF37;
+      --zee: #8230C6;
+      --hbo: #9B59B6;
+      --disney: #113CCF;
+      --appletv: #A3AAAE;
+      --criterion: #D4A017;
+    }
+    html, body { background: var(--oled); color: #f4f4f5; scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #27272a; border-radius: 99px; }
+    .glass {
+      background: rgba(12,12,16,0.72);
+      backdrop-filter: blur(18px) saturate(1.4);
+      -webkit-backdrop-filter: blur(18px) saturate(1.4);
+      border-bottom: 1px solid var(--line);
+    }
+    .card {
+      background: linear-gradient(160deg, #101014 0%, #0a0a0d 100%);
+      border: 1px solid var(--line);
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+    .card:hover, .card:focus-visible {
+      transform: translateY(-3px);
+      border-color: rgba(255,255,255,0.18);
+      box-shadow: 0 18px 40px -20px rgba(0,0,0,0.9);
+    }
+    .card.kb-active {
+      border-color: #f4f4f5;
+      box-shadow: 0 0 0 2px rgba(244,244,245,0.12);
+    }
+    .poster-fallback {
+      background: radial-gradient(circle at 30% 20%, #27272a 0%, #09090b 70%);
+    }
+    .clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .clamp-1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-netflix { background: var(--netflix); }
+    .line-prime { background: var(--prime); }
+    .line-hotstar { background: var(--hotstar); }
+    .line-sonyliv { background: var(--sony); }
+    .line-zee5 { background: var(--zee); }
+    .line-hbo { background: var(--hbo); }
+    .line-disney { background: var(--disney); }
+    .line-appletv { background: var(--appletv); }
+    .line-criterion { background: var(--criterion); }
+    .glow-netflix { box-shadow: inset 0 -1px 0 var(--netflix), 0 0 24px -12px var(--netflix); }
+    .glow-prime { box-shadow: inset 0 -1px 0 var(--prime), 0 0 24px -12px var(--prime); }
+    .glow-hotstar { box-shadow: inset 0 -1px 0 var(--hotstar), 0 0 24px -12px var(--hotstar); }
+    .glow-sonyliv { box-shadow: inset 0 -1px 0 var(--sony), 0 0 24px -12px var(--sony); }
+    .glow-zee5 { box-shadow: inset 0 -1px 0 var(--zee), 0 0 24px -12px var(--zee); }
+    .glow-hbo { box-shadow: inset 0 -1px 0 var(--hbo), 0 0 24px -12px var(--hbo); }
+    .glow-disney { box-shadow: inset 0 -1px 0 var(--disney), 0 0 24px -12px var(--disney); }
+    .glow-appletv { box-shadow: inset 0 -1px 0 var(--appletv), 0 0 24px -12px var(--appletv); }
+    .glow-criterion { box-shadow: inset 0 -1px 0 var(--criterion), 0 0 24px -12px var(--criterion); }
+    .spark { opacity: .85; }
+    .badge-live { background: rgba(34,197,94,.12); color: #4ade80; border: 1px solid rgba(34,197,94,.3); }
+    .badge-baseline { background: rgba(245,158,11,.1); color: #fbbf24; border: 1px solid rgba(245,158,11,.25); }
+    .scroll-x { scrollbar-width: none; }
+    .scroll-x::-webkit-scrollbar { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .fade-up { animation: fadeUp .45s ease both; }
+    @keyframes modalIn { from { opacity: 0; transform: scale(.96) translateY(10px); } to { opacity: 1; transform: none; } }
+    .modal-in { animation: modalIn .22s ease both; }
+  </style>
+</head>
+<body class="bg-oled">
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<script type="text/babel">
+const { useState, useEffect, useMemo, useRef, useCallback } = React;
+
+/* ------------------------------------------------------------------ */
+/* CONSTANTS                                                           */
+/* ------------------------------------------------------------------ */
+const ACCENTS = {
+  netflix: 'var(--netflix)', prime: 'var(--prime)', hotstar: 'var(--hotstar)',
+  sonyliv: 'var(--sony)', zee5: 'var(--zee)', hbo: 'var(--hbo)',
+  disney: 'var(--disney)', appletv: 'var(--appletv)', criterion: 'var(--criterion)',
+};
+
+const PLATFORM_LINE_CLASS = {
+  Netflix: 'line-netflix', Prime: 'line-prime', Hotstar: 'line-hotstar',
+  SonyLIV: 'line-sonyliv', ZEE5: 'line-zee5', HBO: 'line-hbo',
+  Disney: 'line-disney', 'Apple TV+': 'line-appletv',
+};
+
+const FILTERS = [
+  { id: 'all', label: 'All' },
+  { id: 'gold', label: 'Critical Gold (7.8+)' },
+  { id: 'films', label: 'Films Only' },
+  { id: 'series', label: 'Series Only' },
+  { id: 'multi', label: 'Multi-Platform Hits' },
+];
+
+const safeText = (v, fallback = '') => (v == null || v === '' ? fallback : String(v));
+
+const posterSrc = (url) => {
+  if (!url) return '';
+  return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=500&output=webp&q=78`;
+};
+
+const cleanPlatformClass = (name) => {
+  if (name.includes('Netflix')) return 'netflix';
+  if (name.includes('Prime')) return 'prime';
+  if (name.includes('JioHotstar')) return 'hotstar';
+  if (name.includes('SonyLIV')) return 'sonyliv';
+  if (name.includes('ZEE5')) return 'zee5';
+  if (name.includes('HBO')) return 'hbo';
+  if (name.includes('Disney')) return 'disney';
+  if (name.includes('Apple')) return 'appletv';
+  return 'criterion';
+};
+
+/* ------------------------------------------------------------------ */
+/* FUZZY SEARCH                                                        */
+/* ------------------------------------------------------------------ */
+function fuzzyScore(query, haystack) {
+  const q = query.toLowerCase().trim();
+  if (!q) return 1;
+  const h = haystack.toLowerCase();
+  if (h.includes(q)) return 100 - h.indexOf(q);
+  let qi = 0, score = 0, streak = 0;
+  for (let i = 0; i < h.length && qi < q.length; i++) {
+    if (h[i] === q[qi]) { qi++; streak++; score += 2 + streak; }
+    else { streak = 0; }
+  }
+  return qi === q.length ? score : 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* LOCAL STORAGE HOOK                                                  */
+/* ------------------------------------------------------------------ */
+function useLocalStorage(key, initial) {
+  const [value, setValue] = useState(() => {
+    try {
+      const raw = localStorage.getItem(key);
+      return raw ? JSON.parse(raw) : initial;
+    } catch { return initial; }
+  });
+  useEffect(() => {
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch {}
+  }, [key, value]);
+  return [value, setValue];
+}
+
+/* ------------------------------------------------------------------ */
+/* SMALL COMPONENTS                                                    */
+/* ------------------------------------------------------------------ */
+const Sparkline = ({ data, color }) => {
+  if (!data || data.length < 2) return <span className="text-[10px] text-zinc-600 font-mono">—</span>;
+  const w = 64, h = 18, pad = 2;
+  const max = Math.max(...data, 1), min = Math.min(...data, 1);
+  const pts = data.map((v, i) => {
+    const x = pad + (i / (data.length - 1)) * (w - pad * 2);
+    const y = pad + ((v - min) / Math.max(1, max - min)) * (h - pad * 2);
+    return `${x},${h - y}`;
+  }).join(' ');
+  return (
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} className="spark shrink-0" aria-hidden="true">
+      <polyline points={pts} fill="none" stroke={color || '#a1a1aa'} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+};
+
+const DeltaBadge = ({ item }) => {
+  const kind = item.delta_kind || 'same';
+  const cls = kind === 'up'
+    ? 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20'
+    : kind === 'down'
+    ? 'text-rose-400 bg-rose-400/10 border-rose-400/20'
+    : kind === 'new'
+    ? 'text-amber-300 bg-amber-300/10 border-amber-300/20'
+    : 'text-zinc-500 bg-white/5 border-white/10';
+  return (
+    <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded border ${cls}`}>
+      {safeText(item.delta, 'SAME')}
+    </span>
+  );
+};
+
+const Poster = ({ item, accent }) => {
+  const [failed, setFailed] = useState(false);
+  const src = !failed && item.poster ? posterSrc(item.poster) : '';
+  if (!src) {
+    return (
+      <div className="poster-fallback w-full aspect-[2/3] flex flex-col items-center justify-center p-3 text-center">
+        <span className="text-2xl mb-2">🎞️</span>
+        <span className="text-[10px] uppercase tracking-widest text-zinc-500">No artwork</span>
+      </div>
+    );
+  }
+  return (
+    <img
+      src={src}
+      alt={`${item.title} poster`}
+      loading="lazy"
+      referrerPolicy="no-referrer"
+      onError={() => setFailed(true)}
+      className="w-full aspect-[2/3] object-cover bg-zinc-900"
+    />
+  );
+};
+
+const RatingPill = ({ imdb }) => {
+  if (!imdb || Number(imdb) <= 0) return null;
+  const v = Number(imdb);
+  const color = v >= 8 ? 'text-amber-300 border-amber-300/25 bg-amber-300/10'
+    : v >= 7 ? 'text-emerald-300 border-emerald-300/20 bg-emerald-300/10'
+    : 'text-zinc-400 border-white/10 bg-white/5';
+  return (
+    <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded border ${color}`}>
+      IMDb {v.toFixed(1)}
+    </span>
+  );
+};
+
+const OverlapPill = ({ item }) => {
+  if (!item.platform_overlap && !item.region_overlap) return null;
+  const label = item.overlap_label || (item.region_overlap ? 'India + Global' : 'Multi-platform');
+  return (
+    <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-fuchsia-500/10 border border-fuchsia-400/20 text-fuchsia-300">
+      {label}
+    </span>
+  );
+};
+
+/* ------------------------------------------------------------------ */
+/* CARD                                                                */
+/* ------------------------------------------------------------------ */
+const Card = React.forwardRef(({ item, platform, accentKey, active, inWatchlist, seen, onOpen, onToggleWatch, onToggleSeen }, ref) => {
+  const typeLabel = item.type === 'series' ? 'SERIES' : 'FILM';
+  const runtime = item.runtime ? `${item.runtime}m` : '';
+  return (
+    <article
+      ref={ref}
+      tabIndex={0}
+      role="button"
+      aria-label={`${item.title} — ${platform}`}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(item, platform); } }}
+      onClick={() => onOpen(item, platform)}
+      className={`card group relative rounded-2xl overflow-hidden cursor-pointer focus:outline-none ${active ? 'kb-active' : ''}`}
+    >
+      <div className="relative">
+        <Poster item={item} accent={accentKey} />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent pointer-events-none" />
+
+        <div className="absolute top-2 left-2 flex items-center gap-1.5">
+          <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-black/70 border border-white/15 text-zinc-200">
+            #{item.rank || '—'}
+          </span>
+          {item.status === 'LIVE' ? <span className="badge-live text-[9px] font-mono px-1.5 py-0.5 rounded">⚡ LIVE</span>
+            : item.status === 'BASELINE' ? <span className="badge-baseline text-[9px] font-mono px-1.5 py-0.5 rounded">🛡️ BASELINE</span> : null}
+        </div>
+
+        <div className="absolute top-2 right-2 flex flex-col items-end gap-1.5">
+          <RatingPill imdb={item.imdb} />
+          <OverlapPill item={item} />
+        </div>
+
+        <div className="absolute bottom-0 left-0 right-0 p-3">
+          <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
+            <span className="text-[9px] font-mono uppercase tracking-wider px-1.5 py-0.5 rounded bg-white/10 text-zinc-200">{typeLabel}</span>
+            {runtime && <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-zinc-400">{runtime}</span>}
+            <DeltaBadge item={item} />
+          </div>
+          <h3 className="text-sm font-bold leading-tight clamp-2 text-white">{safeText(item.title)}</h3>
+          <p className="text-[11px] text-zinc-400 mt-0.5 clamp-1">{safeText(item.year, '—')} · {platform}</p>
+        </div>
+      </div>
+
+      <div className="p-3 pt-2.5">
+        <div className="flex items-center justify-between gap-2">
+          <div className="min-w-0">
+            <p className="text-[9px] uppercase tracking-wider text-zinc-600 mb-0.5">Trajectory</p>
+            <div className="flex items-center gap-2">
+              <Sparkline data={item.sparkline} color={ACCENTS[accentKey] || '#a1a1aa'} />
+              <span className="text-[9px] text-zinc-500 font-mono truncate">{item.peak_label || '—'}</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-1 shrink-0">
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); onToggleWatch(item); }}
+              aria-label={inWatchlist ? 'Remove from watchlist' : 'Add to watchlist'}
+              className={`p-1.5 rounded-lg border transition ${inWatchlist ? 'bg-amber-400/15 border-amber-400/30 text-amber-300' : 'bg-white/5 border-white/10 text-zinc-400 hover:text-white'}`}
+            >
+              <i data-lucide="bookmark" className="w-3.5 h-3.5" />
+            </button>
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); onToggleSeen(item); }}
+              aria-label={seen ? 'Mark unseen' : 'Mark as seen'}
+              className={`p-1.5 rounded-lg border transition ${seen ? 'bg-emerald-400/15 border-emerald-400/30 text-emerald-300' : 'bg-white/5 border-white/10 text-zinc-400 hover:text-white'}`}
+            >
+              <i data-lucide="check" className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        </div>
+        <p className="mt-2 text-[10px] text-zinc-500 clamp-1" title={item.driver}>{safeText(item.driver, 'Chart momentum')}</p>
+      </div>
+    </article>
+  );
+});
+
+/* ------------------------------------------------------------------ */
+/* TRAILER LIGHTBOX                                                    */
+/* ------------------------------------------------------------------ */
+const Lightbox = ({ item, platform, onClose, onToggleWatch, onToggleSeen, inWatchlist, seen }) => {
+  const [tab, setTab] = useState('synopsis');
+  const youtubeQuery = encodeURIComponent(`${item.title} ${item.year || ''} official trailer`);
+  const ytSrc = `https://www.youtube-nocookie.com/embed?listType=search&list=${youtubeQuery}&autoplay=1&rel=0&modestbranding=1`;
+
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    document.body.style.overflow = 'hidden';
+    return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = ''; };
+  }, [onClose]);
+
+  const letterboxd = `https://letterboxd.com/search/${encodeURIComponent(item.title)}/`;
+  const imdb = item.imdb_url || `https://www.imdb.com/find/?q=${encodeURIComponent(item.title)}`;
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6" role="dialog" aria-modal="true" aria-label={item.title}>
+      <div className="absolute inset-0 bg-black/80 backdrop-blur-xl" onClick={onClose} />
+      <div className="modal-in relative w-full max-w-4xl max-h-[92vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0b0b0f] shadow-2xl">
+        <div className="relative aspect-video bg-black">
+          <iframe
+            src={ytSrc}
+            title={`${item.title} trailer`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            referrerPolicy="no-referrer"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="p-5 sm:p-6">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <div className="flex items-center gap-2 mb-2 flex-wrap">
+                <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-white/10 text-zinc-200">{item.type === 'series' ? 'SERIES' : 'FILM'}</span>
+                <RatingPill imdb={item.imdb} />
+                <DeltaBadge item={item} />
+                <OverlapPill item={item} />
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white">{safeText(item.title)}</h2>
+              <p className="text-sm text-zinc-400 mt-1">{safeText(item.year, '—')} · {platform} · {safeText(item.peak_label, '')}</p>
+            </div>
+            <button onClick={onClose} aria-label="Close" className="p-2 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-white">
+              <i data-lucide="x" className="w-4 h-4" />
+            </button>
+          </div>
+
+          <div className="flex gap-2 mt-4">
+            {['synopsis', 'details'].map(t => (
+              <button key={t} onClick={() => setTab(t)} className={`text-xs px-3 py-1.5 rounded-lg border transition ${tab === t ? 'bg-white/10 border-white/20 text-white' : 'bg-transparent border-white/10 text-zinc-400'}`}>{t}</button>
+            ))}
+          </div>
+
+          {tab === 'synopsis' ? (
+            <p className="mt-4 text-sm leading-relaxed text-zinc-300">{safeText(item.synopsis, 'Synopsis not yet cached for this title. Use the links below to read more.')}</p>
+          ) : (
+            <div className="mt-4 grid grid-cols-2 gap-3 text-sm">
+              <div><span className="text-zinc-500 text-xs uppercase tracking-wider">Driver</span><p className="text-zinc-200 mt-0.5">{safeText(item.driver, 'Chart momentum')}</p></div>
+              <div><span className="text-zinc-500 text-xs uppercase tracking-wider">Trajectory</span><p className="text-zinc-200 mt-0.5">{safeText(item.peak_label, '—')}</p></div>
+              <div><span className="text-zinc-500 text-xs uppercase tracking-wider">Platform overlap</span><p className="text-zinc-200 mt-0.5">{safeText(item.overlap_label, 'Single platform')}</p></div>
+              <div><span className="text-zinc-500 text-xs uppercase tracking-wider">Days on chart</span><p className="text-zinc-200 mt-0.5">{safeText(item.days_on_chart, '—')}</p></div>
+            </div>
+          )}
+
+          <div className="mt-5 flex flex-wrap items-center gap-2">
+            <a href={imdb} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-amber-400/10 border border-amber-400/25 text-amber-300 hover:bg-amber-400/15">
+              <i data-lucide="external-link" className="w-3.5 h-3.5" /> IMDb
+            </a>
+            <a href={letterboxd} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-emerald-400/10 border border-emerald-400/25 text-emerald-300 hover:bg-emerald-400/15">
+              <i data-lucide="film" className="w-3.5 h-3.5" /> Letterboxd
+            </a>
+            <button onClick={() => onToggleWatch(item)} className={`inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg border ${inWatchlist ? 'bg-amber-400/15 border-amber-400/30 text-amber-300' : 'bg-white/5 border-white/10 text-zinc-300'}`}>
+              <i data-lucide="bookmark" className="w-3.5 h-3.5" /> {inWatchlist ? 'In Watchlist' : 'Watchlist'}
+            </button>
+            <button onClick={() => onToggleSeen(item)} className={`inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg border ${seen ? 'bg-emerald-400/15 border-emerald-400/30 text-emerald-300' : 'bg-white/5 border-white/10 text-zinc-300'}`}>
+              <i data-lucide="check" className="w-3.5 h-3.5" /> {seen ? 'Seen' : 'Mark Seen'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+/* ------------------------------------------------------------------ */
+/* SECTION SHELF                                                       */
+/* ------------------------------------------------------------------ */
+const Shelf = ({ title, subtitle, items, platform, accentKey, activeId, cardRefs, ...rest }) => {
+  if (!items || !items.length) return null;
+  return (
+    <section className="mb-10 fade-up">
+      <div className="flex items-end justify-between gap-4 mb-4">
+        <div>
+          <div className={`h-0.5 w-10 mb-2 rounded ${PLATFORM_LINE_CLASS[platform.split(' ')[0]] || 'line-criterion'}`} />
+          <h2 className="text-lg sm:text-xl font-extrabold tracking-tight text-white">{title}</h2>
+          <p className="text-xs text-zinc-500 mt-0.5">{subtitle}</p>
+        </div>
+        <span className="text-[10px] font-mono text-zinc-600 hidden sm:block">{items.length} titles</span>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3 sm:gap-4">
+        {items.map((item) => {
+          const id = `${platform}::${item.title}`;
+          return (
+            <Card
+              key={id}
+              ref={(el) => { if (el) cardRefs.current[id] = el; }}
+              item={{ ...item, status: item.status || rest.platformStatus }}
+              platform={platform}
+              accentKey={accentKey}
+              active={activeId === id}
+              {...rest}
+            />
+          );
+        })}
+      </div>
+    </section>
+  );
+};
+
+/* ------------------------------------------------------------------ */
+/* MAIN APP                                                            */
+/* ------------------------------------------------------------------ */
+function App() {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const [filter, setFilter] = useState('all');
+  const [query, setQuery] = useState('');
+  const [activeId, setActiveId] = useState(null);
+  const [lightbox, setLightbox] = useState(null);
+  const [watchlist, setWatchlist] = useLocalStorage('mc_watchlist', []);
+  const [seen, setSeen] = useLocalStorage('mc_seen', []);
+  const [showWatchlist, setShowWatchlist] = useState(false);
+  const searchRef = useRef(null);
+  const cardRefs = useRef({});
+  const flatRef = useRef([]);
+
+  /* Fetch catalogue */
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/daily_catalogue.json', { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error('Catalogue not found'); return r.json(); })
+      .then(json => { if (!cancelled) setData(json); })
+      .catch(err => { if (!cancelled) setError(err.message); });
+    return () => { cancelled = true; };
+  }, []);
+
+  /* Re-render Lucide icons */
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+
+  /* Derived platform list */
+  const platformNames = useMemo(() => {
+    if (!data) return [];
+    return Object.keys(data.platforms || {});
+  }, [data]);
+
+  const platformMeta = useMemo(() => {
+    const map = {};
+    (data?.platform_meta || []).forEach(p => { map[p.name] = p; });
+    return map;
+  }, [data]);
+
+  /* Flatten all cards for keyboard navigation */
+  const allItems = useMemo(() => {
+    if (!data) return [];
+    const out = [];
+    platformNames.forEach(p => {
+      (data.platforms[p] || []).forEach(item => {
+        out.push({ ...item, platform: p, id: `${p}::${item.title}` });
+      });
+    });
+    return out;
+  }, [data, platformNames]);
+
+  flatRef.current = allItems;
+
+  /* Filtering + fuzzy search */
+  const filtered = useMemo(() => {
+    let items = allItems;
+    if (filter === 'gold') items = items.filter(i => Number(i.imdb) >= 7.8);
+    if (filter === 'films') items = items.filter(i => i.type !== 'series');
+    if (filter === 'series') items = items.filter(i => i.type === 'series');
+    if (filter === 'multi') items = items.filter(i => i.platform_overlap || i.region_overlap);
+    if (showWatchlist) {
+      const keys = new Set(watchlist.map(w => `${w.platform || ''}::${w.title}`));
+      const titleKeys = new Set(watchlist.map(w => w.title.toLowerCase()));
+      items = items.filter(i => keys.has(i.id) || titleKeys.has(i.title.toLowerCase()));
+    }
+    if (query.trim()) {
+      items = items
+        .map(i => ({ i, score: fuzzyScore(query, `${i.title} ${i.platform} ${i.driver || ''} ${i.type || ''}`) }))
+        .filter(x => x.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map(x => x.i);
+    }
+    return items;
+  }, [allItems, filter, query, showWatchlist, watchlist]);
+
+  /* Group by platform for shelves */
+  const grouped = useMemo(() => {
+    const g = {};
+    filtered.forEach(i => { (g[i.platform] = g[i.platform] || []).push(i); });
+    return g;
+  }, [filtered]);
+
+  /* Watchlist helpers */
+  const isInWatchlist = useCallback((item, platform) => {
+    return watchlist.some(w => w.title === item.title && (w.platform === platform || !w.platform));
+  }, [watchlist]);
+
+  const isSeen = useCallback((item) => {
+    return seen.some(s => s.title === item.title);
+  }, [seen]);
+
+  const toggleWatch = useCallback((item, platform) => {
+    const p = platform || item.platform || '';
+    setWatchlist(prev => {
+      const exists = prev.some(w => w.title === item.title && w.platform === p);
+      if (exists) return prev.filter(w => !(w.title === item.title && w.platform === p));
+      return [...prev, { title: item.title, year: item.year, platform: p }];
+    });
+  }, [setWatchlist]);
+
+  const toggleSeen = useCallback((item) => {
+    setSeen(prev => {
+      const exists = prev.some(s => s.title === item.title);
+      if (exists) return prev.filter(s => s.title !== item.title);
+      return [...prev, { title: item.title, year: item.year }];
+    });
+  }, [setSeen]);
+
+  /* Keyboard navigation */
+  useEffect(() => {
+    const handler = (e) => {
+      const tag = document.activeElement?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA') {
+        if (e.key === 'Escape') { document.activeElement.blur(); setQuery(''); }
+        return;
+      }
+      if (lightbox) return;
+
+      const list = filtered.length ? filtered : allItems;
+      const currentIndex = list.findIndex(i => i.id === activeId);
+
+      if (e.key === 'j' || e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        e.preventDefault();
+        const next = list[(currentIndex + 1) % Math.max(1, list.length)];
+        if (next) setActiveId(next.id);
+      } else if (e.key === 'k' || e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        const prev = list[(currentIndex - 1 + list.length) % Math.max(1, list.length)];
+        if (prev) setActiveId(prev.id);
+      } else if (e.key === 't' && activeId) {
+        e.preventDefault();
+        const item = list.find(i => i.id === activeId);
+        if (item) setLightbox(item);
+      } else if (e.key === 'w' && activeId) {
+        e.preventDefault();
+        const item = list.find(i => i.id === activeId);
+        if (item) toggleWatch(item, item.platform);
+      } else if (e.key === '/') {
+        e.preventDefault();
+        searchRef.current?.focus();
+      } else if (e.key === 'Escape') {
+        setLightbox(null);
+        setShowWatchlist(false);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [activeId, filtered, allItems, lightbox, toggleWatch]);
+
+  /* Letterboxd CSV export */
+  const exportLetterboxd = useCallback((items, filename = 'letterboxd-watchlist.csv') => {
+    const rows = [['Title', 'Year']];
+    items.forEach(i => rows.push([i.title || '', i.year || '']));
+    const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(',')).join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename; a.click();
+    URL.revokeObjectURL(url);
+  }, []);
+
+  /* JSON backup */
+  const backupJSON = useCallback(() => {
+    const payload = { exported_at: new Date().toISOString(), watchlist, seen };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'master-catalogue-backup.json'; a.click();
+    URL.revokeObjectURL(url);
+  }, [watchlist, seen]);
+
+  const restoreJSON = useCallback((file) => {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const parsed = JSON.parse(reader.result);
+        if (Array.isArray(parsed.watchlist)) setWatchlist(parsed.watchlist);
+        if (Array.isArray(parsed.seen)) setSeen(parsed.seen);
+      } catch (e) { alert('Invalid backup file.'); }
+    };
+    reader.readAsText(file);
+  }, [setWatchlist, setSeen]);
+
+  /* Scroll active card into view */
+  useEffect(() => {
+    if (!activeId) return;
+    const el = cardRefs.current[activeId];
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, [activeId]);
+
+  /* Render states */
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-6">
+        <div className="text-center max-w-md">
+          <div className="text-5xl mb-4">📡</div>
+          <h1 className="text-xl font-bold mb-2">Catalogue not found</h1>
+          <p className="text-sm text-zinc-500">Run the daily sync workflow or place <code className="text-zinc-300">daily_catalogue.json</code> in <code className="text-zinc-300">/public</code>.</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!data) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-10 h-10 border-2 border-zinc-700 border-t-zinc-300 rounded-full animate-spin mx-auto mb-4" />
+          <p className="text-xs font-mono text-zinc-500 tracking-wider">LOADING CATALOGUE</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-oled">
+      {/* NAV */}
+      <header className="glass sticky top-0 z-30">
+        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 py-3">
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#E50914] to-[#7a0007] flex items-center justify-center shrink-0">
+                <i data-lucide="clapperboard" className="w-4 h-4 text-white" />
+              </div>
+              <div className="min-w-0">
+                <h1 className="text-sm sm:text-base font-extrabold tracking-tight leading-none truncate">THE MASTER CATALOGUE</h1>
+                <p className="text-[10px] text-zinc-500 font-mono mt-0.5 truncate">{data.date_label} · {data.meta?.live_platforms || 0} live / {data.meta?.baseline_platforms || 0} baseline</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <div className="relative hidden sm:block">
+                <i data-lucide="search" className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-zinc-500" />
+                <input
+                  ref={searchRef}
+                  value={query}
+                  onChange={e => setQuery(e.target.value)}
+                  placeholder="Search titles, drivers…"
+                  aria-label="Search"
+                  className="w-44 lg:w-64 bg-white/5 border border-white/10 rounded-lg pl-8 pr-3 py-1.5 text-xs text-zinc-200 placeholder:text-zinc-600 focus:outline-none focus:border-white/25"
+                />
+              </div>
+              <button
+                onClick={() => setShowWatchlist(v => !v)}
+                className={`relative p-2 rounded-lg border text-xs ${showWatchlist ? 'bg-amber-400/15 border-amber-400/30 text-amber-300' : 'bg-white/5 border-white/10 text-zinc-300'}`}
+                aria-label="My Watchlist"
+              >
+                <i data-lucide="bookmark" className="w-4 h-4" />
+                {watchlist.length > 0 && <span className="absolute -top-1.5 -right-1.5 text-[9px] font-mono bg-amber-400 text-black rounded-full px-1 min-w-[14px] text-center">{watchlist.length}</span>}
+              </button>
+              <button onClick={backupJSON} className="p-2 rounded-lg bg-white/5 border border-white/10 text-zinc-300" aria-label="Backup data">
+                <i data-lucide="download" className="w-4 h-4" />
+              </button>
+              <label className="p-2 rounded-lg bg-white/5 border border-white/10 text-zinc-300 cursor-pointer" aria-label="Restore backup">
+                <i data-lucide="upload" className="w-4 h-4" />
+                <input type="file" accept="application/json" className="hidden" onChange={e => restoreJSON(e.target.files?.[0])} />
+              </label>
+            </div>
+          </div>
+
+          {/* Mobile search */}
+          <div className="sm:hidden mt-2">
+            <input
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              placeholder="Search titles, drivers…"
+              className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-xs text-zinc-200 placeholder:text-zinc-600 focus:outline-none focus:border-white/25"
+            />
+          </div>
+
+          {/* Filter bar */}
+          <div className="flex items-center gap-1.5 mt-3 overflow-x-auto scroll-x pb-0.5">
+            {FILTERS.map(f => (
+              <button
+                key={f.id}
+                onClick={() => { setFilter(f.id); setShowWatchlist(false); }}
+                className={`shrink-0 text-[11px] px-2.5 py-1 rounded-lg border transition ${filter === f.id && !showWatchlist ? 'bg-white/10 border-white/25 text-white' : 'bg-transparent border-white/10 text-zinc-400 hover:text-zinc-200'}`}
+              >{f.label}</button>
+            ))}
+            <div className="flex-1" />
+            <button onClick={() => exportLetterboxd(filtered, 'catalogue-top10.csv')} className="shrink-0 inline-flex items-center gap-1 text-[11px] px-2.5 py-1 rounded-lg border border-white/10 text-zinc-400 hover:text-zinc-200">
+              <i data-lucide="file-spreadsheet" className="w-3 h-3" /> Letterboxd CSV
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* MAIN */}
+      <main className="max-w-[1600px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        {showWatchlist ? (
+          <section className="mb-10 fade-up">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h2 className="text-lg font-extrabold text-white">My Watchlist</h2>
+                <p className="text-xs text-zinc-500">{watchlist.length} saved titles · stored locally, zero login</p>
+              </div>
+              <button onClick={() => exportLetterboxd(watchlist, 'letterboxd-watchlist.csv')} className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-emerald-400/10 border border-emerald-400/25 text-emerald-300">
+                <i data-lucide="file-spreadsheet" className="w-3.5 h-3.5" /> Export Letterboxd
+              </button>
+            </div>
+            {filtered.length === 0 ? (
+              <div className="text-center py-16 border border-dashed border-white/10 rounded-2xl">
+                <i data-lucide="bookmark" className="w-8 h-8 text-zinc-700 mx-auto mb-3" />
+                <p className="text-sm text-zinc-500">No saved titles yet. Press <kbd className="px-1.5 py-0.5 rounded bg-white/10 text-zinc-300 text-[10px]">W</kbd> on a card to save it.</p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+                {filtered.map(item => (
+                  <Card
+                    key={item.id}
+                    item={{ ...item, status: item.status || 'BASELINE' }}
+                    platform={item.platform}
+                    accentKey={cleanPlatformClass(item.platform)}
+                    active={activeId === item.id}
+                    inWatchlist
+                    seen={isSeen(item)}
+                    onOpen={setLightbox}
+                    onToggleWatch={() => toggleWatch(item, item.platform)}
+                    onToggleSeen={() => toggleSeen(item)}
+                    ref={(el) => { if (el) cardRefs.current[item.id] = el; }}
+                  />
+                ))}
+              </div>
+            )}
+          </section>
+        ) : (
+          <>
+            {platformNames.map((platform) => {
+              const items = grouped[platform] || [];
+              if (!items.length) return null;
+              const meta = platformMeta[platform] || {};
+              const status = meta.status || 'BASELINE';
+              return (
+                <Shelf
+                  key={platform}
+                  title={platform}
+                  subtitle={meta.region === 'IN' ? 'India OTT · same-day chart' : 'Global OTT · same-day chart'}
+                  items={items.map((i, idx) => ({ ...i, rank: idx + 1, status }))}
+                  platform={platform}
+                  accentKey={cleanPlatformClass(platform)}
+                  activeId={activeId}
+                  cardRefs={cardRefs}
+                  inWatchlist={isInWatchlist}
+                  seen={isSeen}
+                  onOpen={(item) => setLightbox({ ...item, platform })}
+                  onToggleWatch={(item) => toggleWatch(item, platform)}
+                  onToggleSeen={toggleSeen}
+                  platformStatus={status}
+                />
+              );
+            })}
+
+            {/* Beyond Radar */}
+            {data.beyond_radar && data.beyond_radar.length > 0 && (
+              <section className="mb-10 fade-up">
+                <div className="flex items-end justify-between gap-4 mb-4">
+                  <div>
+                    <div className="h-0.5 w-10 mb-2 rounded bg-[var(--criterion)]" />
+                    <h2 className="text-lg sm:text-xl font-extrabold tracking-tight text-white">The Beyond Radar</h2>
+                    <p className="text-xs text-zinc-500 mt-0.5">Festival laureates · MUBI spotlights · Criterion 4K</p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+                  {data.beyond_radar.map((item, idx) => {
+                    const id = `Beyond::${item.title}`;
+                    return (
+                      <Card
+                        key={id}
+                        ref={(el) => { if (el) cardRefs.current[id] = el; }}
+                        item={{ ...item, rank: idx + 1, status: 'LIVE' }}
+                        platform="Beyond Radar"
+                        accentKey="criterion"
+                        active={activeId === id}
+                        inWatchlist={isInWatchlist(item, 'Beyond Radar')}
+                        seen={isSeen(item)}
+                        onOpen={(it) => setLightbox({ ...it, platform: 'Beyond Radar' })}
+                        onToggleWatch={() => toggleWatch(item, 'Beyond Radar')}
+                        onToggleSeen={() => toggleSeen(item)}
+                      />
+                    );
+                  })}
+                </div>
+              </section>
+            )}
+          </>
+        )}
+
+        {/* FOOTER */}
+        <footer className="mt-12 pt-6 border-t border-white/5 text-[10px] text-zinc-600 font-mono flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+          <p>GENERATED {new Date(data.generated_at).toUTCString()} · {data.meta?.total_titles || 0} UNIQUE TITLES · {data.meta?.history_days || 0}-DAY HISTORY</p>
+          <p className="flex items-center gap-3">
+            <span><kbd className="px-1 py-0.5 rounded bg-white/5 border border-white/10 text-zinc-400">J</kbd>/<kbd className="px-1 py-0.5 rounded bg-white/5 border border-white/10 text-zinc-400">K</kbd> navigate</span>
+            <span><kbd className="px-1 py-0.5 rounded bg-white/5 border border-white/10 text-zinc-400">T</kbd> trailer</span>
+            <span><kbd className="px-1 py-0.5 rounded bg-white/5 border border-white/10 text-zinc-400">W</kbd> watch</span>
+            <span><kbd className="px-1 py-0.5 rounded bg-white/5 border border-white/10 text-zinc-400">/</kbd> search</span>
+          </p>
+        </footer>
+      </main>
+
+      {/* LIGHTBOX */}
+      {lightbox && (
+        <Lightbox
+          item={lightbox}
+          platform={lightbox.platform || ''}
+          onClose={() => setLightbox(null)}
+          onToggleWatch={(it) => toggleWatch(it, lightbox.platform)}
+          onToggleSeen={toggleSeen}
+          inWatchlist={isInWatchlist(lightbox, lightbox.platform)}
+          seen={isSeen(lightbox)}
+        />
+      )}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* MOUNT                                                               */
+/* ------------------------------------------------------------------ */
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+/* Service worker for offline boot */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    const swCode = `
+      self.addEventListener('install', e => { self.skipWaiting(); });
+      self.addEventListener('activate', e => { e.waitUntil(self.clients.claim()); });
+      self.addEventListener('fetch', e => {
+        if (e.request.method !== 'GET') return;
+        e.respondWith(
+          caches.open('mc-v1').then(cache =>
+            fetch(e.request).then(res => { cache.put(e.request, res.clone()); return res; })
+              .catch(() => cache.match(e.request))
+          )
+        );
+      });
+    `;
+    const blob = new Blob([swCode], { type: 'application/javascript' });
+    navigator.serviceWorker.register(URL.createObjectURL(blob)).catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
