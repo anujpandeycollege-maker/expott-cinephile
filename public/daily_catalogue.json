@@ -1,0 +1,2763 @@
+{
+  "generated_at": "2026-11-09T21:11:38.559031+00:00",
+  "date_label": "Monday, 09 November 2026",
+  "platform_meta": [
+    {
+      "name": "Netflix India",
+      "region": "IN",
+      "key": "netflix",
+      "accent": "#E50914",
+      "status": "BASELINE"
+    },
+    {
+      "name": "Amazon Prime Video India",
+      "region": "IN",
+      "key": "prime",
+      "accent": "#00A8E1",
+      "status": "BASELINE"
+    },
+    {
+      "name": "JioHotstar",
+      "region": "IN",
+      "key": "hotstar",
+      "accent": "#5A2D91",
+      "status": "BASELINE"
+    },
+    {
+      "name": "SonyLIV",
+      "region": "IN",
+      "key": "sonyliv",
+      "accent": "#D4AF37",
+      "status": "BASELINE"
+    },
+    {
+      "name": "ZEE5",
+      "region": "IN",
+      "key": "zee5",
+      "accent": "#8230C6",
+      "status": "BASELINE"
+    },
+    {
+      "name": "Netflix Global",
+      "region": "GLOBAL",
+      "key": "netflix",
+      "accent": "#E50914",
+      "status": "BASELINE"
+    },
+    {
+      "name": "Amazon Prime Video Global",
+      "region": "GLOBAL",
+      "key": "prime",
+      "accent": "#00A8E1",
+      "status": "BASELINE"
+    },
+    {
+      "name": "HBO Max",
+      "region": "GLOBAL",
+      "key": "hbo",
+      "accent": "#9B59B6",
+      "status": "BASELINE"
+    },
+    {
+      "name": "Disney+",
+      "region": "GLOBAL",
+      "key": "disney",
+      "accent": "#113CCF",
+      "status": "BASELINE"
+    },
+    {
+      "name": "Apple TV+",
+      "region": "GLOBAL",
+      "key": "appletv",
+      "accent": "#A3AAAE",
+      "status": "BASELINE"
+    }
+  ],
+  "platforms": {
+    "Netflix India": [
+      {
+        "title": "Akka",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BODQ2NmJiMjktMWU4ZS00YTA1LWIxZGUtYmE1ZDE4MmFhZjQyXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Akka or AKKA may refer to:.",
+        "imdb_id": "tt29625288",
+        "imdb_url": "https://www.imdb.com/title/tt29625288/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Ikka",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWE0ZTYxYTEtZDY5Ni00NDhkLWEyNjItMDc1NzE1MGJjMzhlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Inhibitor of nuclear factor kappa-B kinase subunit alpha (IKK-α) also known as IKK1 or conserved helix-loop-helix ubiquitous kinase (CHUK) is a protein kinase that in humans is encoded by the CHUK gene. IKK-α is part of the IκB kinase complex that plays an important role in regulating the NF-κB transcription factor.",
+        "imdb_id": "tt39632269",
+        "imdb_url": "https://www.imdb.com/title/tt39632269/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Bhooth Bangla",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmFiOWNjYWEtMDU5OS00YTdmLWI4MGUtNGQ0MTYwMWFiYTgxXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt29540862",
+        "imdb_url": "https://www.imdb.com/title/tt29540862/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Dhamaal 4",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTI2YTA2YzktMGUwOS00Njk3LWE0M2MtNDE4YTljNDdjNjNlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt27548557",
+        "imdb_url": "https://www.imdb.com/title/tt27548557/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Lust Stories 3",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDZkNjJjY2YtMjZmYy00MDllLTgxZjItMjc4YjMxODMwZDMzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39667834",
+        "imdb_url": "https://www.imdb.com/title/tt39667834/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Pati Patni Aur Woh Do",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmE0ZTA5MTgtNTE4NC00NThmLWFiM2EtZTI2MTc2Y2FmZjkwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt33054858",
+        "imdb_url": "https://www.imdb.com/title/tt33054858/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "72 Hours",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTRkOTUxZDctOThmNC00ZWVkLTljMjMtNGVjYjVmMDFkZmMyXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt36304003",
+        "imdb_url": "https://www.imdb.com/title/tt36304003/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Franchise / sequel window debut"
+      },
+      {
+        "title": "Ohh My Dog",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTk1YTBkMjktMTU4MS00ZWM1LTk1MmQtYzFlMjU0OWU4NWI2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt36626888",
+        "imdb_url": "https://www.imdb.com/title/tt36626888/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Romanchakam",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzExZWYwZWMtNmFlMC00NDA4LThkZTAtNzk2YzU4MDhkMmE2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt41971399",
+        "imdb_url": "https://www.imdb.com/title/tt41971399/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Vishwanath & Sons",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.3,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGRkYWFjNzAtODFhNS00NzM4LTk3NTAtNzgwMDg0OTE2ZTIzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt35836025",
+        "imdb_url": "https://www.imdb.com/title/tt35836025/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ],
+    "Amazon Prime Video India": [
+      {
+        "title": "Dhurandhar: The Revenge",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzE2ZmIzNTEtZTE1OS00ZDFhLTk2Y2YtZDEyNGIxNTdiYWFlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39139925",
+        "imdb_url": "https://www.imdb.com/title/tt39139925/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "The Odyssey",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTcyNmJlZmQtNDUwYy00NDBjLTg1NGQtYTY2Y2UxMWM3NmI1XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt33764258",
+        "imdb_url": "https://www.imdb.com/title/tt33764258/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Enola Holmes 3",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzVhNmQ0MzItNjg3Mi00MzM1LWI5MDUtOGZlMTFjNTJjMTM2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt32278481",
+        "imdb_url": "https://www.imdb.com/title/tt32278481/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Remarkably Bright Creatures",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzM3OTRlZDktYTk0OS00OTlmLWFhMjctMTZiODU4N2RiYzhhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt33100314",
+        "imdb_url": "https://www.imdb.com/title/tt33100314/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Immaculate",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.3,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWEzYjYyMjQtNTJjYi00ZDQ5LWE4N2MtNWY2ZTgxODNhYWM4XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "The Immaculate Conception is the doctrine that the Virgin Mary was free of original sin from the moment of her conception. It is one of the four Marian dogmas of the Catholic Church. Debated by medieval theologians, it was not defined as a dogma until 1854, by Pope Pius IX in the papal bull Ineffabilis Deus.",
+        "imdb_id": "tt23137390",
+        "imdb_url": "https://www.imdb.com/title/tt23137390/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "The Last House",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGVlY2E3YjYtMDI3OC00OTZjLWE5MTgtNzQ2NDdlNjMwMzVhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt32268156",
+        "imdb_url": "https://www.imdb.com/title/tt32268156/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "The Devil's Mouth",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWMyNGRhZDctMTIzNC00MDc3LTkzYTctNGJjZmU4MjgzMzEwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt36958312",
+        "imdb_url": "https://www.imdb.com/title/tt36958312/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Gullak Season 5",
+        "year": 2026,
+        "type": "series",
+        "imdb": 8.4,
+        "poster": null,
+        "synopsis": null,
+        "imdb_id": null,
+        "imdb_url": null,
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 2 Days in Top 10",
+        "sparkline": [
+          8,
+          1
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India",
+          "SonyLIV"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Parimala & Co",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGJmODQ0ODYtOWQ3Zi00M2VhLWIwNzYtYzRmMGI0NmE5ZWEwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39385419",
+        "imdb_url": "https://www.imdb.com/title/tt39385419/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 3,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 3 Days in Top 10",
+        "sparkline": [
+          9,
+          10,
+          2
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India",
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "3 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Balti",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjY1ZGVkMjQtMjNkOC00YTA3LWEzNTctOGEwMmEwNGFiNmU0XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Balti may refer to:.",
+        "imdb_id": "tt34942608",
+        "imdb_url": "https://www.imdb.com/title/tt34942608/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ],
+    "JioHotstar": [
+      {
+        "title": "Kingdom of the Planet of the Apes",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 7.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDRlZTc3YTItOTk3Yi00NmU4LWFiOGUtNjgwMDZjNjIzNTU1XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt11389872",
+        "imdb_url": "https://www.imdb.com/title/tt11389872/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 7.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt6263850",
+        "imdb_url": "https://www.imdb.com/title/tt6263850/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 2 Days in Top 10",
+        "sparkline": [
+          2,
+          6
+        ],
+        "platform_overlap": true,
+        "region_overlap": true,
+        "overlap_platforms": [
+          "JioHotstar",
+          "Disney+"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Inside Out 2",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 7.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt22022452",
+        "imdb_url": "https://www.imdb.com/title/tt22022452/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 2 Days in Top 10",
+        "sparkline": [
+          3,
+          5
+        ],
+        "platform_overlap": true,
+        "region_overlap": true,
+        "overlap_platforms": [
+          "JioHotstar",
+          "Disney+"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "The First Omen",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWU0ZjM1YjYtMGZkZi00NTBiLTgxMGItMzVhZDgyZTkyY2ZhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt5672290",
+        "imdb_url": "https://www.imdb.com/title/tt5672290/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Shaitaan",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGI3YTcwNTgtMmY5Ny00M2Y0LWFjOWUtYjhkMzNjMjhmYjVkXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Iblis, also known as Shaitan, is the leader of the devils in Islam. According to the Quran, Iblis was thrown out of heaven after refusing to prostrate himself before Adam.",
+        "imdb_id": "tt27744786",
+        "imdb_url": "https://www.imdb.com/title/tt27744786/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Thukra Ke Mera Pyaar Season 2",
+        "year": 2026,
+        "type": "series",
+        "imdb": 6.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmEyNmY5YTQtZGFiYy00YmY5LWI5MjAtMzBlYmMyZmFjMGRjXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt34498121",
+        "imdb_url": "https://www.imdb.com/title/tt34498121/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar"
+        ],
+        "overlap_label": "",
+        "driver": "Franchise / sequel window debut"
+      },
+      {
+        "title": "The Kerala Story 2",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 5.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGQyOGI2MDUtMmIzMi00NmM1LTg5MmItNTkxNGQyZTgwZGIzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39310158",
+        "imdb_url": "https://www.imdb.com/title/tt39310158/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 2 Days in Top 10",
+        "sparkline": [
+          7,
+          4
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Mukhbir: The Story of a Spy",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzk2YWNkNjItZjk3My00MWU4LThlZTMtNjk1NmU2NDdmYzQ2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt43663295",
+        "imdb_url": "https://www.imdb.com/title/tt43663295/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Detective Sherdil",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGZmYWRhZmMtMzc3Mi00MDdmLWIyNDktNjJhMTFlMTM0ZWZmXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt28076316",
+        "imdb_url": "https://www.imdb.com/title/tt28076316/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 2 Days in Top 10",
+        "sparkline": [
+          9,
+          8
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Parimala & Co",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGJmODQ0ODYtOWQ3Zi00M2VhLWIwNzYtYzRmMGI0NmE5ZWEwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39385419",
+        "imdb_url": "https://www.imdb.com/title/tt39385419/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 3,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 3 Days in Top 10",
+        "sparkline": [
+          9,
+          10,
+          2
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India",
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "3 platforms",
+        "driver": "Multi-platform crossover hit"
+      }
+    ],
+    "SonyLIV": [
+      {
+        "title": "Gullak Season 5",
+        "year": 2026,
+        "type": "series",
+        "imdb": 8.4,
+        "poster": null,
+        "synopsis": null,
+        "imdb_id": null,
+        "imdb_url": null,
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 2 Days in Top 10",
+        "sparkline": [
+          8,
+          1
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India",
+          "SonyLIV"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Undekhi Season 3",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzU4MjJhZDMtYTAyMC00YTRlLWFiOWItMzk5YzU5N2IyMDdlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt7692504",
+        "imdb_url": "https://www.imdb.com/title/tt7692504/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Franchise / sequel window debut"
+      },
+      {
+        "title": "Scam 2003",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGE3M2M2YjUtZDhjYS00NTlhLThiY2UtMzY3MDIzYTRjNzY0XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt28804856",
+        "imdb_url": "https://www.imdb.com/title/tt28804856/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Rautu Ka Raaz",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjk5NzRjODktZmUzNy00NzdkLTgxYzUtZDlkMTgwZmExNzQ3XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt32607174",
+        "imdb_url": "https://www.imdb.com/title/tt32607174/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 2 Days in Top 10",
+        "sparkline": [
+          4,
+          7
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV",
+          "ZEE5"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Chamak",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTc0ZWY0YTktMTc3ZS00YjY0LTk1NDMtOThjYTVmYjQxNzNhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Chamak is a village in Esfandaqeh Rural District, in the Central District of Jiroft County, Kerman Province, Iran.",
+        "imdb_id": "tt28184392",
+        "imdb_url": "https://www.imdb.com/title/tt28184392/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Kafas",
+        "year": 2025,
+        "type": "series",
+        "imdb": 6.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDg3NGE1ZjQtN2FhNC00MDYxLThjZWEtNmU2NTUzZTZmMDA5XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Kafaz is a village in Doreh Rural District of Doreh District in Sarbisheh County, South Khorasan province, Iran..",
+        "imdb_id": "tt27618691",
+        "imdb_url": "https://www.imdb.com/title/tt27618691/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Taj: Reign of Revenge",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmEyOWU1YjctNjgxNS00MTcyLTk3NDgtZmY3ZjBkY2RkN2YxXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt21056886",
+        "imdb_url": "https://www.imdb.com/title/tt21056886/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Mumbai Diaries",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDk4NDJmMGEtYzM0ZC00NmZkLTk4YjQtNGU0YmU2MmQ2MzYxXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt12714854",
+        "imdb_url": "https://www.imdb.com/title/tt12714854/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Nirmal Pathak Ki Ghar Wapsi",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTZmMDMxNzctMGI4Yy00MzAzLWE0ZjUtZWU5ZTllZTBkOTM4XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt19865778",
+        "imdb_url": "https://www.imdb.com/title/tt19865778/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Kaun Banega Crorepati",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDgzNTMyOTItYTk0YS00NWY3LThmMjUtNWEwMGRiNzQ2YWFiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt0250875",
+        "imdb_url": "https://www.imdb.com/title/tt0250875/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ],
+    "ZEE5": [
+      {
+        "title": "Patriot",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.3,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWIzM2U5YmEtYTRhMi00MGI4LWFkNjgtNGY3YjFjMjUxMjI0XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "A patriot is a person with the quality of patriotism..",
+        "imdb_id": "tt4687882",
+        "imdb_url": "https://www.imdb.com/title/tt4687882/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "ZEE5"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Parimala & Co",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGJmODQ0ODYtOWQ3Zi00M2VhLWIwNzYtYzRmMGI0NmE5ZWEwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39385419",
+        "imdb_url": "https://www.imdb.com/title/tt39385419/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 3,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 3 Days in Top 10",
+        "sparkline": [
+          9,
+          10,
+          2
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video India",
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "3 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Mukhbir",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzk2YWNkNjItZjk3My00MWU4LThlZTMtNjk1NmU2NDdmYzQ2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Mukhbiir (transl. Informer) is a 2008 Indian Hindi-language spy action-thriller film directed by Mani Shankar. The film revolves around the life and events surrounding an Indian spy.",
+        "imdb_id": "tt43663295",
+        "imdb_url": "https://www.imdb.com/title/tt43663295/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "ZEE5"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "The Kerala Story 2",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 5.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGQyOGI2MDUtMmIzMi00NmM1LTg5MmItNTkxNGQyZTgwZGIzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt39310158",
+        "imdb_url": "https://www.imdb.com/title/tt39310158/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 2 Days in Top 10",
+        "sparkline": [
+          7,
+          4
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Welcome To The Jungle",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjI5MzdmODctYjA4NS00ZmMxLWJlOWUtOGVhMjA0OGMxMWYzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt2283362",
+        "imdb_url": "https://www.imdb.com/title/tt2283362/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "ZEE5"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "De De Pyaar De 2",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGFlYzUwYjgtYWViOS00MzYyLThlNGQtNTM0NGU5N2E2YTcxXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt28802657",
+        "imdb_url": "https://www.imdb.com/title/tt28802657/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "ZEE5"
+        ],
+        "overlap_label": "",
+        "driver": "Franchise / sequel window debut"
+      },
+      {
+        "title": "Rautu Ka Raaz",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjk5NzRjODktZmUzNy00NzdkLTgxYzUtZDlkMTgwZmExNzQ3XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt32607174",
+        "imdb_url": "https://www.imdb.com/title/tt32607174/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 2 Days in Top 10",
+        "sparkline": [
+          4,
+          7
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "SonyLIV",
+          "ZEE5"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Detective Sherdil",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGZmYWRhZmMtMzc3Mi00MDdmLWIyNDktNjJhMTFlMTM0ZWZmXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt28076316",
+        "imdb_url": "https://www.imdb.com/title/tt28076316/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 2 Days in Top 10",
+        "sparkline": [
+          9,
+          8
+        ],
+        "platform_overlap": true,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "JioHotstar",
+          "ZEE5"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "The RajaSaab",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDg4ODMzZjAtOGI0MS00Y2I3LWFkM2MtNzQ5MDI2MDE5ZTAwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt23790696",
+        "imdb_url": "https://www.imdb.com/title/tt23790696/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "ZEE5"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Dhurandhar",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzFiNTVkZjYtM2I3Yi00MGNjLWEyYTAtMGViNGExZmMzMGMzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Dhurandhar is a 2025 Indian Hindi-language spy action thriller propaganda film written and directed by Aditya Dhar. Produced by Dhar, Lokesh Dhar and Jyoti Deshpande under Jio Studios and B62 Studios, the film features an ensemble cast consisting of Ranveer Singh, Akshaye Khanna, Sanjay Dutt, Arjun Rampal, R.",
+        "imdb_id": "tt33014583",
+        "imdb_url": "https://www.imdb.com/title/tt33014583/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "ZEE5"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ],
+    "Netflix Global": [
+      {
+        "title": "War Machine",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmM1ZTc5ZTYtOTM2My00MjBmLWE5NzktYzkyYzdlYWE3ZDAzXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt15940132",
+        "imdb_url": "https://www.imdb.com/title/tt15940132/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "The Rip",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjIzMGY3MzMtNDVlMS00MGU1LTkyNTItMmI4Mzk0Mjg3OTBkXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt32642706",
+        "imdb_url": "https://www.imdb.com/title/tt32642706/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Swapped",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWFlNWM2Y2YtY2VhOC00MWFiLWExNWYtYWViYzJhMDQyMTJiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Swapped is a 2026 American animated fantasy comedy film directed by Nathan Greno and written by John Whittington, Christian Magalhaes, and Robert Snow, who all co-wrote the story with Greno and Adam Karp. Produced by Skydance Animation, the film stars the voices of Michael B.",
+        "imdb_id": "tt29552248",
+        "imdb_url": "https://www.imdb.com/title/tt29552248/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "KPop Demon Hunters",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 8.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt14205554",
+        "imdb_url": "https://www.imdb.com/title/tt14205554/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Apex",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 6.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjUzODE2ZWYtMDdiMS00ZTA0LWI4MzEtNDkyODNiNmIwMWY1XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Apex may refer to:.",
+        "imdb_id": "tt16431404",
+        "imdb_url": "https://www.imdb.com/title/tt16431404/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Unchosen",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTgyMjNhNjYtYjEwYy00NmFjLTg2MTQtZDNkYjZhYzMwODA0XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Unchosen is a British psychological thriller television series created and written by Julie Gearey, released on Netflix on 21 April 2026.",
+        "imdb_id": "tt31631142",
+        "imdb_url": "https://www.imdb.com/title/tt31631142/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Thrash",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BODMxNjdhMWQtMmJhYS00MDc1LTkyYzAtYTgzZTFhMmI1ODEyXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Thrash may refer to:Thrashing, where increasing resources are used to do a decreasing amount of work\nThrash (surname)\nThrash (film), a 2026 survival horror movie\nThrash, mascot of the Atlanta Thrashers\nThrash Rally, a top-down perspective rally racing video game developed by ADK\nA synonym for a strike (attack).",
+        "imdb_id": "tt32362890",
+        "imdb_url": "https://www.imdb.com/title/tt32362890/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "A Lesson Learned",
+        "year": 2026,
+        "type": "movie",
+        "imdb": 7.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGMyNTMzMWMtNmRhOC00NmRkLTliODktNmUxMTc3OGZkMWM3XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt30807200",
+        "imdb_url": "https://www.imdb.com/title/tt30807200/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Stranger Things",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt4574334",
+        "imdb_url": "https://www.imdb.com/title/tt4574334/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "One Piece",
+        "year": 2026,
+        "type": "series",
+        "imdb": 8.3,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt0388629",
+        "imdb_url": "https://www.imdb.com/title/tt0388629/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Netflix Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      }
+    ],
+    "Amazon Prime Video Global": [
+      {
+        "title": "The Boys",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjU4OWNiYzQtMzc1NS00NjZlLTgyYTctZWY4ZmEzMTkxYjA4XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt1190634",
+        "imdb_url": "https://www.imdb.com/title/tt1190634/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Fallout",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzE1MTZmY2ItMTgxNi00OGU5LTk4NTItMmY2ODFhYzhjZjRkXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Nuclear fallout is residual radioisotope material that is created by the reactions producing a nuclear explosion. It is initially present in the radioactive cloud created by the explosion, and \"falls out\" of the cloud as it is moved by the atmosphere in the minutes, hours, and days after the explosion.",
+        "imdb_id": "tt12637874",
+        "imdb_url": "https://www.imdb.com/title/tt12637874/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Reacher",
+        "year": 2026,
+        "type": "series",
+        "imdb": 8.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmE0YTA3MTItMjhiNC00MGQ3LTllZDktNGNiZWY1OWFmNmM1XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Reacher may refer to:.",
+        "imdb_id": "tt9288030",
+        "imdb_url": "https://www.imdb.com/title/tt9288030/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "The Rings of Power",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjlhYTk3ZGQtNjdlYi00NDQyLTgxZTEtMzk0OTU5OTRhNGZhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt7631058",
+        "imdb_url": "https://www.imdb.com/title/tt7631058/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Invincible",
+        "year": 2026,
+        "type": "series",
+        "imdb": 8.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGM5MmM2ZDAtMzBjNS00NjMxLWE4ZTMtNzFjMWMxYzU2ZThjXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Invincible may refer to:.",
+        "imdb_id": "tt6741278",
+        "imdb_url": "https://www.imdb.com/title/tt6741278/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "The Idea of You",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2RkZmZjYTQtOGExMS00YTljLWJmNzQtMzI0ZDU3YzFjNzJkXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt9466114",
+        "imdb_url": "https://www.imdb.com/title/tt9466114/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Road House",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BODVkYjlkM2UtNWVlMS00N2U1LTgxOTYtODlmNmE1YTgzMjczXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt3359350",
+        "imdb_url": "https://www.imdb.com/title/tt3359350/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Air",
+        "year": 2023,
+        "type": "movie",
+        "imdb": 7.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjdjYzJkZmUtZDNiMC00MzQ0LWE2MGEtYTk4ZGM4NzFkMzM3XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "The atmosphere of Earth consists of a multi-layered gas mixture surrounding the Earth's planetary surface, which is retained by gravity.",
+        "imdb_id": "tt16419074",
+        "imdb_url": "https://www.imdb.com/title/tt16419074/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Saltburn",
+        "year": 2023,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjk4NGE3MWItMDRhMy00YzhiLTk0MGUtZDlkNmQxYWIxYzc2XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Saltburn may refer to:.",
+        "imdb_id": "tt17351924",
+        "imdb_url": "https://www.imdb.com/title/tt17351924/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Mr. & Mrs. Smith",
+        "year": 2024,
+        "type": "series",
+        "imdb": 7.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt0356910",
+        "imdb_url": "https://www.imdb.com/title/tt0356910/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Amazon Prime Video Global"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ],
+    "HBO Max": [
+      {
+        "title": "The Last of Us",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt3581920",
+        "imdb_url": "https://www.imdb.com/title/tt3581920/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "House of the Dragon",
+        "year": 2026,
+        "type": "series",
+        "imdb": 8.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWU2ZDA0M2EtNWEyYy00MWUwLWI4NjAtYzkxMDFjYzZkNGFiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt11198330",
+        "imdb_url": "https://www.imdb.com/title/tt11198330/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Succession",
+        "year": 2024,
+        "type": "series",
+        "imdb": 8.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTY4YTVkY2QtMjRmOS00YzliLWIxOWQtMTdkOTVkN2UzODNmXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Succession is the act or process of following in order or sequence..",
+        "imdb_id": "tt7660850",
+        "imdb_url": "https://www.imdb.com/title/tt7660850/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "The Penguin",
+        "year": 2024,
+        "type": "series",
+        "imdb": 8.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmU3MzYzOWEtOTdkZi00YzA1LTliMzQtNDdiZDBjY2FiNmFlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt15435876",
+        "imdb_url": "https://www.imdb.com/title/tt15435876/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Dune: Part Two",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 8.5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt15239678",
+        "imdb_url": "https://www.imdb.com/title/tt15239678/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Barbie",
+        "year": 2023,
+        "type": "movie",
+        "imdb": 6.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDU0ZGYtYjA2YS00Y2RlLTgwZDAtYTE2YTM5ZjE1M2JlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Barbie is a fashion doll franchise created by American businesswoman Ruth Handler, manufactured by American toy and entertainment company Mattel and introduced on March 9, 1959. The toy was based on the German Bild Lilli doll which Handler had purchased while in Europe.",
+        "imdb_id": "tt1517268",
+        "imdb_url": "https://www.imdb.com/title/tt1517268/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Wonka",
+        "year": 2023,
+        "type": "movie",
+        "imdb": 7.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2Y1N2ZhNjctYjVhZC00MDg2LWFhNTItMzI3ZjAwZDhjYmFiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Wonka may refer to:Willy Wonka, a fictional character who appears in Roald Dahl's 1964 children's novel Charlie and the Chocolate Factory and its film adaptations\nWonka Bar, a fictional chocolate bar produced by the Oompa Loompas of the Wonka Factory\nWonka (film), a 2023 musical fantasy film directed by Paul King explo.",
+        "imdb_id": "tt6166392",
+        "imdb_url": "https://www.imdb.com/title/tt6166392/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "The Batman",
+        "year": 2022,
+        "type": "movie",
+        "imdb": 7.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt1877830",
+        "imdb_url": "https://www.imdb.com/title/tt1877830/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Euphoria",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.3,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjVlN2M2N2MtOWViZC00MzIxLTlhZWEtMTIwNDIwMzE3ZWJiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Euphoria is the experience of pleasure or excitement and intense feelings of well-being and happiness. Certain natural rewards and social activities, such as aerobic exercise, laughter, listening to or making music and dancing, can induce a state of euphoria.",
+        "imdb_id": "tt8772296",
+        "imdb_url": "https://www.imdb.com/title/tt8772296/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "True Detective",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.9,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt2356777",
+        "imdb_url": "https://www.imdb.com/title/tt2356777/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "HBO Max"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      }
+    ],
+    "Disney+": [
+      {
+        "title": "Shogun",
+        "year": 2024,
+        "type": "series",
+        "imdb": 8.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmJkMDRjYzEtMWI3Ny00OWE3LWJlNTItMGQ1MTQzMzc3NDY5XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Shōgun , officially sei-i taishōgun , was the title of the military rulers of Japan during most of the period spanning from 1185 to 1868.",
+        "imdb_id": "tt2788316",
+        "imdb_url": "https://www.imdb.com/title/tt2788316/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "The Bear",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjk2NWI5OTctODcwYy00NGRmLWFmN2YtOTZiNzFiYjVlODBkXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt14452776",
+        "imdb_url": "https://www.imdb.com/title/tt14452776/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Loki",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzA2YjM2ZWQtYTZhMS00OTI3LTlhYzQtZjBiZWZkMDdlNjA5XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Loki is a god in Norse mythology. Loki engineers the death of the beloved god Baldr and is bound by the gods and suffers from serpent venom. His wife Sigyn collects the venom in a bowl.",
+        "imdb_id": "tt9140554",
+        "imdb_url": "https://www.imdb.com/title/tt9140554/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Ahsoka",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTM3MjVjZjUtYTEyMi00OTA5LWExMzEtYjhhYmEyYzMzNTBiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Ahsoka may refer to:Ahsoka Tano, a fictional Star Wars character\nAhsoka (novel), a 2016 novel\nStar Wars: Ahsoka, a 2023 live-action television series.",
+        "imdb_id": "tt13622776",
+        "imdb_url": "https://www.imdb.com/title/tt13622776/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Inside Out 2",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 7.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt22022452",
+        "imdb_url": "https://www.imdb.com/title/tt22022452/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 2 Days in Top 10",
+        "sparkline": [
+          3,
+          5
+        ],
+        "platform_overlap": true,
+        "region_overlap": true,
+        "overlap_platforms": [
+          "JioHotstar",
+          "Disney+"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 7.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt6263850",
+        "imdb_url": "https://www.imdb.com/title/tt6263850/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 2,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 2 Days in Top 10",
+        "sparkline": [
+          2,
+          6
+        ],
+        "platform_overlap": true,
+        "region_overlap": true,
+        "overlap_platforms": [
+          "JioHotstar",
+          "Disney+"
+        ],
+        "overlap_label": "2 platforms",
+        "driver": "Multi-platform crossover hit"
+      },
+      {
+        "title": "Moana 2",
+        "year": 2024,
+        "type": "movie",
+        "imdb": 6.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt13622970",
+        "imdb_url": "https://www.imdb.com/title/tt13622970/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Franchise / sequel window debut"
+      },
+      {
+        "title": "The Mandalorian",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt8111088",
+        "imdb_url": "https://www.imdb.com/title/tt8111088/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Andor",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGI2MTJjMjUtMTJhOC00YTY2LTg1NjUtMTdmMjg4YTk2YjM5XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Andor, also known as Star Wars: Andor or Andor: A Star Wars Story, is an American television series created by Tony Gilroy for the streaming service Disney+.",
+        "imdb_id": "tt9253284",
+        "imdb_url": "https://www.imdb.com/title/tt9253284/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Percy Jackson",
+        "year": 2026,
+        "type": "series",
+        "imdb": 7.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGUwOTQ0ZjMtYzA3NS00YWJiLWE3YzEtOGI1YzNkZGFlOWQ5XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt12324366",
+        "imdb_url": "https://www.imdb.com/title/tt12324366/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Disney+"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ],
+    "Apple TV+": [
+      {
+        "title": "Severance",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Severance may refer to:.",
+        "imdb_id": "tt11280740",
+        "imdb_url": "https://www.imdb.com/title/tt11280740/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 1,
+        "peak_label": "Peak: #1 • 1 Day in Top 10",
+        "sparkline": [
+          1
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Silo",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.1,
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2E5ODJmOTUtYTk0NS00NmFiLTk0MTgtZDRlNzE1YmExMjk4XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "A silo is a structure for storing bulk materials..",
+        "imdb_id": "tt14688458",
+        "imdb_url": "https://www.imdb.com/title/tt14688458/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 2,
+        "peak_label": "Peak: #2 • 1 Day in Top 10",
+        "sparkline": [
+          2
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Slow Horses",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmM2NDhmYjktNTIzZC00YjIwLWE1ZmUtNzM1MTNiMTU2NjdjXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt5875444",
+        "imdb_url": "https://www.imdb.com/title/tt5875444/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 3,
+        "peak_label": "Peak: #3 • 1 Day in Top 10",
+        "sparkline": [
+          3
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "The Morning Show",
+        "year": 2025,
+        "type": "series",
+        "imdb": 8.2,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTY1YjM0Y2QtODFkMy00ZDc4LTg3MWMtMDE4MGY5NzFjYTRhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt7203552",
+        "imdb_url": "https://www.imdb.com/title/tt7203552/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 4,
+        "peak_label": "Peak: #4 • 1 Day in Top 10",
+        "sparkline": [
+          4
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Foundation",
+        "year": 2025,
+        "type": "series",
+        "imdb": 7.6,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzY5OGJhYzItNGQyOS00NmU3LWFhOWMtNGY1OGVlNTlmYjc0XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Foundation(s) or The Foundation(s) may refer to:.",
+        "imdb_id": "tt0804484",
+        "imdb_url": "https://www.imdb.com/title/tt0804484/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 5,
+        "peak_label": "Peak: #5 • 1 Day in Top 10",
+        "sparkline": [
+          5
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Napoleon",
+        "year": 2023,
+        "type": "movie",
+        "imdb": 6.4,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGQ1NGUxNDUtNjg3Yi00ZTZjLWIwOTUtNDBjYWY5ZjVmZGI4XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Napoleon Bonaparte was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815.",
+        "imdb_id": "tt13287846",
+        "imdb_url": "https://www.imdb.com/title/tt13287846/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 6,
+        "peak_label": "Peak: #6 • 1 Day in Top 10",
+        "sparkline": [
+          6
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "Killers of the Flower Moon",
+        "year": 2023,
+        "type": "movie",
+        "imdb": 7.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWY5ZDVjNTUtODI5Yy00MjFhLWEyM2EtYzZjM2VjZTI0MTBjXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt5537002",
+        "imdb_url": "https://www.imdb.com/title/tt5537002/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 7,
+        "peak_label": "Peak: #7 • 1 Day in Top 10",
+        "sparkline": [
+          7
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      },
+      {
+        "title": "CODA",
+        "year": 2021,
+        "type": "movie",
+        "imdb": 8.0,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzIzOTNjOTQtM2QzOC00NjFlLTljZDUtZmI4Yjg1YTkyMTBiXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": "Coda or CODA may refer to:.",
+        "imdb_id": "tt10366460",
+        "imdb_url": "https://www.imdb.com/title/tt10366460/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 8,
+        "peak_label": "Peak: #8 • 1 Day in Top 10",
+        "sparkline": [
+          8
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Ted Lasso",
+        "year": 2024,
+        "type": "series",
+        "imdb": 8.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2ZlYTU0YWUtMzY4OC00N2JkLTk1ZGQtN2UxNWJhMTBkMzM4XkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt10986410",
+        "imdb_url": "https://www.imdb.com/title/tt10986410/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 9,
+        "peak_label": "Peak: #9 • 1 Day in Top 10",
+        "sparkline": [
+          9
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Critical darling — awards-season tailwind"
+      },
+      {
+        "title": "Presumed Innocent",
+        "year": 2024,
+        "type": "series",
+        "imdb": 7.7,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDk1MWM3NmItZmNjZS00ZmZkLTk1ZDAtZjFiN2FiZjczNmZhXkEyXkFqcGc@._V1_.jpg",
+        "synopsis": null,
+        "imdb_id": "tt17677860",
+        "imdb_url": "https://www.imdb.com/title/tt17677860/",
+        "delta": "★ NEW ENTRY",
+        "delta_kind": "new",
+        "days_on_chart": 1,
+        "peak_rank": 10,
+        "peak_label": "Peak: #10 • 1 Day in Top 10",
+        "sparkline": [
+          10
+        ],
+        "platform_overlap": false,
+        "region_overlap": false,
+        "overlap_platforms": [
+          "Apple TV+"
+        ],
+        "overlap_label": "",
+        "driver": "Fresh theatrical-to-streaming window"
+      }
+    ]
+  },
+  "beyond_radar": [
+    {
+      "title": "Anora",
+      "year": 2024,
+      "type": "movie",
+      "imdb": 7.5,
+      "source": "Cannes / Venice / TIFF Laureates",
+      "driver": "Palme d’Or winner — continuing arthouse resurgence",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYThiN2M0NTItODRmNC00NDhlLWFiYTgtMWM2YTEyYzI3ZTY1XkEyXkFqcGc@._V1_.jpg",
+      "synopsis": "Anora is a 2024 American romantic comedy drama film written, directed, produced, and edited by Sean Baker. It stars Mikey Madison as Anora \"Ani\" Mikheeva, a lap dancer from New York who marries the wealthy son of a Russian oligarch played by Mark Eydelshteyn.",
+      "imdb_id": "tt28607951",
+      "imdb_url": "https://www.imdb.com/title/tt28607951/",
+      "delta": "★ NEW ENTRY",
+      "delta_kind": "new",
+      "days_on_chart": 1,
+      "peak_rank": 1,
+      "peak_label": "Festival / restoration spotlight",
+      "sparkline": [
+        1
+      ]
+    },
+    {
+      "title": "The Substance",
+      "year": 2024,
+      "type": "movie",
+      "imdb": 7.3,
+      "source": "MUBI Spotlight",
+      "driver": "Body-horror auteur moment; MUBI editorial push",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_.jpg",
+      "synopsis": null,
+      "imdb_id": "tt17526714",
+      "imdb_url": "https://www.imdb.com/title/tt17526714/",
+      "delta": "★ NEW ENTRY",
+      "delta_kind": "new",
+      "days_on_chart": 1,
+      "peak_rank": 2,
+      "peak_label": "Festival / restoration spotlight",
+      "sparkline": [
+        2
+      ]
+    },
+    {
+      "title": "Seven Samurai",
+      "year": 1954,
+      "type": "movie",
+      "imdb": 8.6,
+      "source": "Criterion 4K Restorations",
+      "driver": "New 4K restoration — Criterion spine spotlight",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjliMWExOTMtZDQ3ZS00NWU3LWIyN2EtMjllNzk3ZTNlYzg4XkEyXkFqcGc@._V1_.jpg",
+      "synopsis": null,
+      "imdb_id": "tt0047478",
+      "imdb_url": "https://www.imdb.com/title/tt0047478/",
+      "delta": "★ NEW ENTRY",
+      "delta_kind": "new",
+      "days_on_chart": 1,
+      "peak_rank": 3,
+      "peak_label": "Festival / restoration spotlight",
+      "sparkline": [
+        3
+      ]
+    },
+    {
+      "title": "All We Imagine as Light",
+      "year": 2024,
+      "type": "movie",
+      "imdb": 7.4,
+      "source": "Cannes / Venice / TIFF Laureates",
+      "driver": "Grand Prix winner — festival-to-streaming crossover",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzg5OWVkODQtNDViMS00YmFkLTg4YjctMGFmZjM4OTdlYWRhXkEyXkFqcGc@._V1_.jpg",
+      "synopsis": null,
+      "imdb_id": "tt32086077",
+      "imdb_url": "https://www.imdb.com/title/tt32086077/",
+      "delta": "★ NEW ENTRY",
+      "delta_kind": "new",
+      "days_on_chart": 1,
+      "peak_rank": 4,
+      "peak_label": "Festival / restoration spotlight",
+      "sparkline": [
+        4
+      ]
+    },
+    {
+      "title": "Perfect Days",
+      "year": 2023,
+      "type": "movie",
+      "imdb": 7.9,
+      "source": "MUBI Spotlight",
+      "driver": "Wim Wenders’ quiet-cinema revival",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGVmODFkM2MtOTEzMy00MjFjLThjZmYtODMxZmI1MzcyNDkyXkEyXkFqcGc@._V1_.jpg",
+      "synopsis": null,
+      "imdb_id": "tt27503384",
+      "imdb_url": "https://www.imdb.com/title/tt27503384/",
+      "delta": "★ NEW ENTRY",
+      "delta_kind": "new",
+      "days_on_chart": 1,
+      "peak_rank": 5,
+      "peak_label": "Festival / restoration spotlight",
+      "sparkline": [
+        5
+      ]
+    },
+    {
+      "title": "Godzilla Minus One",
+      "year": 2023,
+      "type": "movie",
+      "imdb": 7.7,
+      "source": "Criterion 4K Restorations",
+      "driver": "Kaiju canonisation — physical 4K demand",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjc5MjllMGUtMDIwMS00ZDVkLWEzODQtM2NlMTMwMTZhNThmXkEyXkFqcGc@._V1_.jpg",
+      "synopsis": null,
+      "imdb_id": "tt23289160",
+      "imdb_url": "https://www.imdb.com/title/tt23289160/",
+      "delta": "★ NEW ENTRY",
+      "delta_kind": "new",
+      "days_on_chart": 1,
+      "peak_rank": 6,
+      "peak_label": "Festival / restoration spotlight",
+      "sparkline": [
+        6
+      ]
+    }
+  ],
+  "meta": {
+    "total_titles": 92,
+    "live_platforms": 0,
+    "baseline_platforms": 10,
+    "history_days": 1,
+    "site": ""
+  }
+}
