@@ -31,7 +31,7 @@ import requests
 # ---------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent
-PUBLIC = ROOT / "public"
+PUBLIC = ROOT / "docs"
 PUBLIC.mkdir(exist_ok=True)
 
 CATALOGUE_FILE = PUBLIC / "daily_catalogue.json"
